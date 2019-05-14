@@ -1,0 +1,13 @@
+@import "../../assets/wxss/common.wxss";
+
+.small-text {
+  font-size: 24rpx;
+}
+.big-text {
+  font-size: 50rpx;
+}
+.custom-tag {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}

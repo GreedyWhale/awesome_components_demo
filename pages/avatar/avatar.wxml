@@ -1,0 +1,79 @@
+<ac-nav-bar title="Avatar" nav-bar-text-color="#161616" background-color="#f0d22e"></ac-nav-bar>
+<view class="page-header">头像 Avatar</view>
+<view class="page-content">
+  <view class="page-content-title">头像形状</view>
+  <view class="page-content-inner">
+    <ac-avatar url="{{url}}"></ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar url="{{url}}" shape="rounded"></ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar url="{{url}}" shape="circle"></ac-avatar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">头像尺寸</view>
+  <view class="page-content-inner">
+    <ac-avatar bg-color="purple" width="40">A</ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar bg-color="red" width="80">B</ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar width="120" bg-color="pink" custom-class-text="big-text">C</ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar width="160" bg-color="gold" custom-class-text="big-text">D</ac-avatar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">文字类头像</view>
+  <view class="page-content-inner">
+    <ac-avatar bg-color="purple" custom-class-text="small-text">purple</ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar shape="rounded" bg-color="red">red</ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar shape="circle" bg-color="pink">pink</ac-avatar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">消息提示</view>
+  <view class="page-content-inner">
+    <ac-avatar bg-color="purple" custom-class-text="small-text" count="1">purple</ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar shape="rounded" bg-color="red" count="50" url="{{url}}"></ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar shape="circle" bg-color="pink" count="100">pink</ac-avatar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义右上角内容</view>
+  <view class="page-content-inner">
+    <ac-avatar
+      visible-dot="{{true}}"
+      bg-color="purple" custom-class-text="small-text">
+      <image class="custom-tag" src="{{tag}}" slot="tag" mode="widthFix"/>
+      purple
+    </ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar
+      visible-dot="{{true}}"
+      shape="rounded" bg-color="red" url="{{url}}">
+      <image class="custom-tag" src="{{tag}}" slot="tag" mode="widthFix"/>
+    </ac-avatar>
+    <view class="page-placeholder"></view>
+    <ac-avatar
+      visible-dot="{{true}}"
+      shape="circle" bg-color="pink">
+      <image class="custom-tag" src="{{tag}}" slot="tag" mode="widthFix"/>
+      pink
+    </ac-avatar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">头像组</view>
+  <view class="page-content-inner">
+    <ac-avatar bg-color="purple" urls="{{urls}}"></ac-avatar>
+  </view>
+</view>

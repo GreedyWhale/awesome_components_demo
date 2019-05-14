@@ -1,0 +1,90 @@
+<ac-nav-bar title="Loading" nav-bar-text-color="#161616" background-color="#f0d22e"></ac-nav-bar>
+
+<view class="page-header">加载 Loading</view>
+<view class="page-content">
+  <view class="page-content-title">默认样式</view>
+  <view class="page-content-inner">
+    <ac-loading></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">grow</view>
+  <view class="page-content-inner">
+    <ac-loading type="grow" color="#9eccab"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">flood</view>
+  <view class="page-content-inner">
+    <ac-loading type="flood" color="#2486b9"></ac-loading>
+  </view>
+</view>
+
+
+<view class="page-content">
+  <view class="page-content-title">pendulum</view>
+  <view class="page-content-inner">
+    <ac-loading type="pendulum" color="#ba2f7b"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">dots</view>
+  <view class="page-content-inner">
+    <ac-loading type="dots" color="#f86b1d"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">wave</view>
+  <view class="page-content-inner">
+    <ac-loading type="wave" color="#e2d849"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">boomerang</view>
+  <view class="page-content-inner boomerang-wrapper">
+    <ac-loading type="boomerang" color="#10aec2"></ac-loading>
+  </view>
+</view>
+
+
+<view class="page-content">
+  <view class="page-content-title">sudoku</view>
+  <view class="page-content-inner">
+    <ac-loading type="sudoku" color="#a7a8bd"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">snake</view>
+  <view class="page-content-inner">
+    <ac-loading type="snake" color="#e9d7df"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">ring</view>
+  <view class="page-content-inner">
+    <ac-loading type="ring" color="#806d9e"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">square</view>
+  <view class="page-content-inner">
+    <ac-loading type="square" color="#83cbac"></ac-loading>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">不同大小</view>
+  <view class="page-content-inner">
+    <ac-loading type="grow" color="#1177b0" width="50" height="25"></ac-loading>
+    <view class="page-placeholder"></view>
+    <ac-loading type="grow" color="#e8b004" width="150" height="75"></ac-loading>
+  </view>
+</view>

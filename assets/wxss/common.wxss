@@ -1,0 +1,36 @@
+.page-header {
+  font-weight: bold;
+  padding: 20rpx;
+  background: #fff;
+  margin-bottom: 40rpx;
+  font-size: 42rpx;
+}
+.page-content {
+  background: #fff;
+  margin-bottom: 40rpx;
+}
+.page-content .page-content-title {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0 20rpx 40rpx;
+  font-size: 32rpx;
+  position: relative;
+}
+.page-content .page-content-title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 40%;
+  width: 8rpx;
+  background: #f0d22e;
+  transform: translateY(-50%);
+}
+.page-content .page-content-inner {
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.page-content .page-content-inner .page-placeholder {
+  display: inline-block;
+  padding: 0 20rpx;
+}

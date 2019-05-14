@@ -1,0 +1,23 @@
+<ac-nav-bar title="Components" nav-bar-text-color="#161616" background-color="#f0d22e"></ac-nav-bar>
+<view class="header">
+  <image src="../../assets/image/icon.png" class="header-icon" mode="widthFix"/>
+  <view class="header-title">Awesome Components</view>
+</view>
+<view class="body">
+  <block wx:for="{{components}}" wx:key="{{item.key}}">
+    <template is="item" data="{{...item}}"></template>
+  </block>
+</view>
+
+<template name="item">
+  <navigator class="item" open-type="navigate" url="{{goNextPath}}">
+    <view class="item-icon">
+      <view class="iconfont {{icon}}"></view>
+    </view>
+    <view class="item-info">
+      <view class="item-info-title">{{name}}</view>
+      <view class="item-info-desc">{{desc}}</view>
+    </view>
+    <view class="item-go-next-btn iconfont icon-left"></view>
+  </navigator>
+</template>

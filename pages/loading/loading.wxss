@@ -1,0 +1,5 @@
+@import "../../assets/wxss/common.wxss";
+
+.boomerang-wrapper {
+  height: 200rpx;
+}
