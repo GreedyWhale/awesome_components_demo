@@ -1,0 +1,9 @@
+@import "../../assets/wxss/common.wxss";
+
+.dialog-img {
+  width: 100%;
+  display: block;
+}
+.dialog-btn {
+  border-radius: 0;
+}

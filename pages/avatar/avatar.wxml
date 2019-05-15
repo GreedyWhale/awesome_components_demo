@@ -1,4 +1,6 @@
-<ac-nav-bar title="Avatar" nav-bar-text-color="#161616" background-color="#f0d22e"></ac-nav-bar>
+<ac-nav-bar
+  title="Avatar" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
 <view class="page-header">头像 Avatar</view>
 <view class="page-content">
   <view class="page-content-title">头像形状</view>

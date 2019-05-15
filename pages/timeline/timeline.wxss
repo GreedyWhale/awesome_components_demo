@@ -1,0 +1,38 @@
+@import '../../miniprogram_npm/@csr/awesome_components/wxss/timeline/timeline.wxss';
+@import "../../assets/wxss/common.wxss";
+
+.ac-timeline-icon-wrapper {
+  background: #f6f8f9 !important;
+}
+.jiqing {
+  background: #63bbd0 !important;
+  border-color: #63bbd0 !important;
+}
+.lanlv {
+  background: #12a182 !important;
+  border-color: #12a182 !important;
+}
+.diehuang {
+  background: #e2d849 !important;
+  border-color: #e2d849 !important;
+}
+.meijianghong {
+  background: #fa5d19 !important;
+  border-color: #fa5d19 !important;
+}
+.liuzihong {
+  background: #f1908c !important;
+  border-color: #f1908c !important;
+}
+.wenpochuan {
+  background: #ed2f6a !important;
+  border-color: #ed2f6a !important;
+}
+.xiancaizi {
+  background: #9b1e64 !important;
+  border-color: #9b1e64 !important;
+}
+.dianqing {
+  background: #1661ab !important;
+  border-color: #1661ab !important;
+}

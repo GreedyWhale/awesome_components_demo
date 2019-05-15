@@ -1,0 +1,34 @@
+@import "../../assets/wxss/common.wxss";
+
+.background-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.input {
+  border: 1rpx solid black;
+  font-size: 30rpx;
+  padding: 10rpx;
+  border-radius: 8rpx;
+}
+.colors-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.colors-item {
+  flex: 0 0 25%;
+  height: 100rpx;
+  border-radius: 4rpx;
+  margin-bottom: 20rpx;
+}
+.page-wrapper .page-content,
+.page-wrapper .page-header{
+  background: transparent;
+}

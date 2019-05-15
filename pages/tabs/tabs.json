@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ac-tabs": "@csr/awesome_components/components/tabs/tabs",
+    "ac-tabs-panel": "@csr/awesome_components/components/tabs-panel/tabs-panel"
+  }
+}

@@ -1,0 +1,22 @@
+<ac-nav-bar
+  title="Vertical Navigation" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home" bindonlayout="setVerlNavHeight"></ac-nav-bar>
+<view class="page-header">垂直导航 Vertical Navigation</view>
+<ac-vertical-navigation
+  scroll-height="{{scrollHeight}}"
+  bindupdateNav="updateActiveNav" activeIndex="{{navIndex}}" nav-length="{{navs.length}}" content-item-id="content-" nav-item-selector=".ac-nav-item">
+  <view slot="nav">
+    <view
+      id="nav-{{index}}" bindtap="onTapNav" data-index="{{index}}"
+      wx:for="{{navs}}" wx:key="{{index}}" class="ac-nav-item {{navIndex === index ? 'ac-nav-item-active' : ''}}" >
+      {{item}}
+    </view>
+  </view>
+  <view slot="content" class="ac-nav-scroll-right">
+    <view
+      wx:for="{{contents}}" wx:key="{{index}}"
+      id="content-{{index}}" class="ac-nav-scroll-right-item scroll-item">
+      {{item}}
+    </view>
+  </view>
+</ac-vertical-navigation>

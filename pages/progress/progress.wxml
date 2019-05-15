@@ -1,0 +1,71 @@
+<ac-nav-bar
+  title="Progress" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">进度条 Progress</view>
+
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <ac-progress percent="{{percent}}"></ac-progress>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">显示进度</view>
+  <view class="page-content-inner">
+    <ac-progress percent="{{percent}}" progress-color="#10aec2">{{percent}}%</ac-progress>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">进度条尺寸</view>
+  <view class="page-content-inner">
+    <ac-progress percent="{{percent}}" custom-style="{{ {height: '40rpx'} }}" progress-color="#f4a83a"></ac-progress>
+    <view class="page-placeholder"></view>
+    <ac-progress percent="{{percent}}" custom-style="{{ {height: '25rpx', width: '80%'} }}" progress-color="#f4a83a"></ac-progress>
+    <view class="page-placeholder"></view>
+    <ac-progress percent="{{percent}}" custom-style="{{ {height: '15rpx', width: '60%'} }}" progress-color="#f4a83a"></ac-progress>
+    <view class="page-placeholder"></view>
+    <ac-progress percent="{{percent}}" custom-style="{{ {height: '10rpx', width: '40%'} }}" progress-color="#f4a83a"></ac-progress>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">进度条颜色</view>
+  <view class="page-content-inner">
+    <ac-progress
+      percent="{{percent}}"
+      custom-style="{{ {background: colors[backgroundIndex].value} }}"
+      progress-color="{{colors[colorIndex].value}}"></ac-progress>
+
+    <view class="color-btns">
+      <view class="color-btns-item" bindtap="toggleDialog" data-type="backgroundIndex">
+        <view class="color-btns-box" style="background: {{colors[backgroundIndex].value}};"></view>
+        <view>背景色</view>
+      </view>
+      <view class="color-btns-item" bindtap="toggleDialog" data-type="colorIndex">
+        <view class="color-btns-box" style="background: {{colors[colorIndex].value}};"></view>
+        <view>进度条颜色</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">动态条纹效果</view>
+  <view class="page-content-inner">
+    <ac-progress percent="{{percent}}" stripe progress-color="#1661ab">{{percent}}%</ac-progress>
+  </view>
+</view>
+
+<ac-dialog
+  visible="{{visibleDialog}}" title="选择颜色" bindonclose="closeDialog"
+  custom z-index="10" visible-footer="{{false}}">
+  <view class="dialog-content">
+    <view
+      wx:for="{{colors}}" wx:key="{{item.value}}" bindtap="chooseColor" data-index="{{index}}"
+      class="dialog-content-item" style="background: {{item.value}};">
+      {{item.name}}
+    </view>
+  </view>
+</ac-dialog>

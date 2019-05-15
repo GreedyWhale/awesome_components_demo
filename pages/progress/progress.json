@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ac-progress": "@csr/awesome_components/components/progress/progress",
+    "ac-dialog": "@csr/awesome_components/components/dialog/dialog"
+  }
+}

@@ -1,0 +1,70 @@
+<ac-nav-bar
+  title="{{immersion ? '' :navBarText}}" nav-bar-text-color="{{immersion ? '' : navTextColor}}"
+  background-color="{{immersion ? '' : navBg}}"
+  nav-bar-icon-color="{{navIconColor}}"
+  home-path="/pages/home/home"
+  bg-image="{{navBarImg}}"></ac-nav-bar>
+
+<image
+  hidden="{{!immersion}}"
+  class="background-img" mode="scaleToFill" src="../../assets/image/navBarBg.jpg"/>
+
+<view class="{{immersion ? 'page-wrapper' : ''}}">
+  <view class="page-header">自定义导航栏 NavBar</view>
+
+  <view class="page-content">
+    <view class="page-content-title">改变标题栏文字</view>
+    <view class="page-content-inner">
+      <input type="text" bindinput="setNavBarText" class="input"/>
+    </view>
+  </view>
+
+  <view class="page-content">
+    <view class="page-content-title">改变标题栏背景颜色</view>
+    <view class="page-content-inner">
+      <view class="colors-wrapper">
+        <view
+          class="colors-item" data-key="navBg" data-index="{{index}}" bindtap="setNavColor"
+          wx:for="{{colors}}" wx:key="{{item}}-bg" style="background: {{item}};"></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-content">
+    <view class="page-content-title">改变标题栏文字颜色</view>
+    <view class="page-content-inner">
+      <view class="colors-wrapper">
+        <view
+          class="colors-item" data-key="navTextColor" data-index="{{index}}" bindtap="setNavColor"
+          wx:for="{{colors}}" wx:key="{{item}}-color" style="background: {{item}};"></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-content">
+    <view class="page-content-title">改变标题栏左上角图标颜色</view>
+    <view class="page-content-inner">
+      <view class="colors-wrapper">
+        <view
+          class="colors-item" data-key="navIconColor" data-index="{{index}}" bindtap="setNavColor"
+          wx:for="{{colors}}" wx:key="{{item}}-color" style="background: {{item}};"></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-content">
+    <view class="page-content-title">开启沉浸式</view>
+    <view class="page-content-inner">
+      <button type="warn" size="mini" bindtap="toggleImmersion">开启沉浸式</button>
+    </view>
+  </view>
+
+  <view class="page-content">
+    <view class="page-content-title">使用图片作为导航栏背景</view>
+    <view class="page-content-inner">
+      <button type="primary" size="mini" bindtap="chooseImg">选择图片</button>
+      <view class="page-placeholder"></view>
+      <button type="primary" size="mini" bindtap="clearImg">还原</button>
+    </view>
+  </view>
+</view>

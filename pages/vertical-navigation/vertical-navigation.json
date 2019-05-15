@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ac-vertical-navigation": "@csr/awesome_components/components/vertical-navigation/vertical-navigation"
+  }
+}

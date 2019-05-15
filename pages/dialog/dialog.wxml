@@ -1,0 +1,89 @@
+<ac-nav-bar
+  title="Avatar" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">弹窗 Dialog</view>
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <button class="btn" type="primary" bindtap="onTap" size="mini" data-key="visible">
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义按钮文案</view>
+  <view class="page-content-inner">
+    <button class="btn" type="primary" bindtap="onTap" size="mini" data-key="visible1">
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">无标题</view>
+  <view class="page-content-inner">
+    <button class="btn" type="primary" bindtap="onTap" size="mini" data-key="visible2">
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">隐藏取消按钮</view>
+  <view class="page-content-inner">
+    <button class="btn" type="primary" bindtap="onTap" size="mini" data-key="visible3">
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">隐藏关闭图标</view>
+  <view class="page-content-inner">
+    <button class="btn" type="primary" bindtap="onTap" size="mini" data-key="visible4">
+      点我
+    </button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义弹窗</view>
+  <view class="page-content-inner">
+    <button class="btn" type="primary" bindtap="onTap" size="mini" data-key="visible5">
+      点我
+    </button>
+  </view>
+</view>
+
+<ac-dialog
+  data-key="visible"
+  bindonclose="closeDialog" bindoncancel="closeDialog" bindonconfirm="closeDialog" 
+  visible="{{visible}}" title="初春饰利" content="甜食是装在另一个胃里的"></ac-dialog>
+
+<ac-dialog
+  data-key="visible1" confirm-desc="知道了" cancel-desc="退下"
+  bindonclose="closeDialog" bindoncancel="closeDialog" bindonconfirm="closeDialog" 
+  visible="{{visible1}}" title="初春饰利" content="甜食是装在另一个胃里的"></ac-dialog>
+
+<ac-dialog
+  data-key="visible2"
+  bindonclose="closeDialog" bindoncancel="closeDialog" bindonconfirm="closeDialog" 
+  visible="{{visible2}}" content="甜食是装在另一个胃里的"></ac-dialog>
+
+<ac-dialog
+  data-key="visible3" visible-cancel-btn="{{false}}"
+  bindonclose="closeDialog" bindoncancel="closeDialog" bindonconfirm="closeDialog" 
+  visible="{{visible3}}" title="初春饰利" content="甜食是装在另一个胃里的"></ac-dialog>
+
+<ac-dialog
+  data-key="visible4" visible-close-icon="{{false}}"
+  bindonclose="closeDialog" bindoncancel="closeDialog" bindonconfirm="closeDialog" 
+  visible="{{visible4}}" title="初春饰利" content="甜食是装在另一个胃里的"></ac-dialog>
+
+<ac-dialog visible="{{visible5}}" visible-footer="{{false}}">
+  <image src="../../assets/image/paojie.jpg" class="dialog-img" mode="widthFix"/>
+  <button
+    class="dialog-btn"
+    size="default" type="warn" data-key="visible5" bindtap="closeDialog">点我关闭</button>
+</ac-dialog>

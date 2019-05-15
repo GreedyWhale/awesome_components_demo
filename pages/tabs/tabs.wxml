@@ -1,0 +1,66 @@
+<ac-nav-bar
+  title="Tabs" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">标签页 Tabs</view>
+
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <ac-tabs default-active="{{0}}">
+      <ac-tabs-panel title="标题一">内容一</ac-tabs-panel>
+      <ac-tabs-panel title="标题二">内容二</ac-tabs-panel>
+      <ac-tabs-panel title="标题三">内容三</ac-tabs-panel>
+    </ac-tabs>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">开启切换动画</view>
+  <view class="page-content-inner">
+    <ac-tabs default-active="{{0}}" animated>
+      <ac-tabs-panel title="标题一">内容一</ac-tabs-panel>
+      <ac-tabs-panel title="标题二">内容二</ac-tabs-panel>
+      <ac-tabs-panel title="标题三">内容三</ac-tabs-panel>
+    </ac-tabs>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">开启切换动画</view>
+  <view class="page-content-inner">
+    <ac-tabs default-active="{{0}}" animated swipeable>
+      <ac-tabs-panel title="标题一">内容一</ac-tabs-panel>
+      <ac-tabs-panel title="标题二">内容二</ac-tabs-panel>
+      <ac-tabs-panel title="标题三">内容三</ac-tabs-panel>
+    </ac-tabs>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">多个tab</view>
+  <view class="page-content-inner">
+    <ac-tabs default-active="{{0}}" animated swipeable>
+      <ac-tabs-panel title="标题一">内容一</ac-tabs-panel>
+      <ac-tabs-panel title="标题二">内容二</ac-tabs-panel>
+      <ac-tabs-panel title="标题三">内容三</ac-tabs-panel>
+      <ac-tabs-panel title="标题四">内容四</ac-tabs-panel>
+      <ac-tabs-panel title="标题五">内容五</ac-tabs-panel>
+      <ac-tabs-panel title="标题六">内容六</ac-tabs-panel>
+      <ac-tabs-panel title="标题七">内容七</ac-tabs-panel>
+      <ac-tabs-panel title="标题八">内容八</ac-tabs-panel>
+      <ac-tabs-panel title="标题九">内容九</ac-tabs-panel>
+    </ac-tabs>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">禁用某一项</view>
+  <view class="page-content-inner">
+    <ac-tabs default-active="{{0}}" animated swipeable>
+      <ac-tabs-panel title="标题一">内容一</ac-tabs-panel>
+      <ac-tabs-panel title="标题二" disabled>内容二</ac-tabs-panel>
+      <ac-tabs-panel title="标题三">内容三</ac-tabs-panel>
+      <ac-tabs-panel title="标题四" disabled>内容四</ac-tabs-panel>
+    </ac-tabs>
+  </view>
+</view>

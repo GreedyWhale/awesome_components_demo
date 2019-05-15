@@ -1,0 +1,9 @@
+@import '../../miniprogram_npm/@csr/awesome_components/wxss/vertical-navigation/vertical-navigation.wxss';
+@import "../../assets/wxss/common.wxss";
+
+page {
+  overflow: hidden;
+}
+.scroll-item {
+  height: 600rpx;
+}
