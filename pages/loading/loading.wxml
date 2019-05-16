@@ -75,12 +75,6 @@
   </view>
 </view>
 
-<view class="page-content">
-  <view class="page-content-title">square</view>
-  <view class="page-content-inner">
-    <ac-loading type="square" color="#83cbac"></ac-loading>
-  </view>
-</view>
 
 <view class="page-content">
   <view class="page-content-title">不同大小</view>

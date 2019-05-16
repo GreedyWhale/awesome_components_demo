@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@csr/awesome_components@^1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@csr/awesome_components/-/awesome_components-1.1.8.tgz#7a21765d5980be4bc21cbede27cffafe91bc868e"
-  integrity sha512-RB8HAqhrxHwKODwspAeNnlEFg/VLSPHQM0W+nf1W7bFgl6Ah7u5UXRHdT6l0NDHbSGBtyT3wJ8UCpJKAHvoA4g==
+"@csr/awesome_components@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@csr/awesome_components/-/awesome_components-1.2.1.tgz#379ff353b70e87f2fe67e02fb34a113d5e90e6f2"
+  integrity sha512-qXh3gi43W6n4jBfygxUlzYxTrumjt46ckOnHkonjFSQW+YKc91hWFHi/EwtnkHTMO19n2N08uY1Rov7jb3eVZQ==

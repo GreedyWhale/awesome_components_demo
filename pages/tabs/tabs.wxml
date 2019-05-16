@@ -26,7 +26,7 @@
 </view>
 
 <view class="page-content">
-  <view class="page-content-title">开启切换动画</view>
+  <view class="page-content-title">滑动切换</view>
   <view class="page-content-inner">
     <ac-tabs default-active="{{0}}" animated swipeable>
       <ac-tabs-panel title="标题一">内容一</ac-tabs-panel>
