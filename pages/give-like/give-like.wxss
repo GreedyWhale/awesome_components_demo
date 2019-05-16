@@ -1,0 +1,14 @@
+@import "../../assets/wxss/common.wxss";
+
+.samll-size {
+  font-size: 24rpx !important;
+}
+.medium-size {
+  font-size: 48rpx !important;
+}
+.big-size {
+  font-size: 64rpx !important;
+}
+.bigger-size {
+  font-size: 88rpx !important;
+}

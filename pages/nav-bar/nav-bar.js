@@ -23,7 +23,6 @@ Page({
   },
   setNavColor(e) {
     const {currentTarget: {dataset: {key, index}}} = e
-    console.log(key, index)
     this.setData({
       [key]: this.data.colors[index]
     })

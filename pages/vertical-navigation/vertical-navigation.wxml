@@ -1,6 +1,6 @@
 <ac-nav-bar
   title="Vertical Navigation" nav-bar-text-color="#161616" background-color="#f0d22e"
-  home-path="/pages/home/home" bindonlayout="setVerlNavHeight"></ac-nav-bar>
+  home-path="/pages/home/home"></ac-nav-bar>
 <view class="page-header">垂直导航 Vertical Navigation</view>
 <ac-vertical-navigation
   scroll-height="{{scrollHeight}}"

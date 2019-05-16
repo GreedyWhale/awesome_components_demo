@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@csr/awesome_components": "^1.0.3"
+    "@csr/awesome_components": "^1.1.8"
   }
 }

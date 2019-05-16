@@ -1,0 +1,11 @@
+@import "../../assets/wxss/common.wxss";
+
+.page-content-inner-item {
+  height: 80rpx;
+}
+.sticky-elem {
+  background: firebrick;
+}
+.sticky-elem-second {
+  background: orange;
+}

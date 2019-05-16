@@ -1,6 +1,6 @@
 <ac-nav-bar
   title="Watermark" nav-bar-text-color="#161616" background-color="#f0d22e"
-  home-path="/pages/home/home" bindonlayout="setVerlNavHeight"></ac-nav-bar>
+  home-path="/pages/home/home"></ac-nav-bar>
 <view class="page-header">水印生成器 Watermark</view>
 
 <ac-watermark></ac-watermark>

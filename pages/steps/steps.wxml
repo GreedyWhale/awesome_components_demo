@@ -1,0 +1,29 @@
+<ac-nav-bar
+  title="Steps" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">步骤条 Steps</view>
+
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <ac-steps steps="{{steps}}" current-step="{{currentStep}}"></ac-steps>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义颜色</view>
+  <view class="page-content-inner">
+    <ac-steps steps="{{steps1}}" current-step="{{currentStep1}}" colors="{{colors}}"></ac-steps>
+    <button type="primary" size="mini" bindtap="onTap">下一步</button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义图标</view>
+  <view class="page-content-inner">
+    <ac-steps
+      steps="{{steps}}"
+      current-step="{{currentStep}}"
+      custom-class-icon="iconfont icon-notice"></ac-steps>
+  </view>
+</view>

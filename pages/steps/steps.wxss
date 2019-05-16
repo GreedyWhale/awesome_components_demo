@@ -1,0 +1,7 @@
+@import "../../assets/wxss/common.wxss";
+@import '../../assets/wxss/icon.wxss';
+
+
+.icon-notice:before {
+  content: "\e6c7" !important;
+}

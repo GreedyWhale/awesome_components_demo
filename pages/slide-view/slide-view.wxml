@@ -1,0 +1,24 @@
+<ac-nav-bar
+  title="Slide View" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">滑块 Slide Vie</view>
+
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <ac-slide-view height="100">
+      <view slot="left" class="silde-view-left silde-view">左滑</view>
+      <view slot="right" class="silde-view-right silde-view">删除</view>
+    </ac-slide-view>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义高度</view>
+  <view class="page-content-inner">
+    <ac-slide-view height="200">
+      <view slot="left" class="silde-view-left silde-view">左滑</view>
+      <view slot="right" class="silde-view-right silde-view">删除</view>
+    </ac-slide-view>
+  </view>
+</view>

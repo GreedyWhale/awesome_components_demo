@@ -1,0 +1,5 @@
+@import "../../assets/wxss/common.wxss";
+.notice-bar {
+  position: absolute !important;
+  top: 50% !important;
+}

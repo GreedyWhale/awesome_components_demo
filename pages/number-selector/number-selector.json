@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ac-number-selector": "@csr/awesome_components/components/number-selector/number-selector"
+  }
+}

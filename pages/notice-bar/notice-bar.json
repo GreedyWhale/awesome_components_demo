@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ac-notice-bar": "@csr/awesome_components/components/notice-bar/notice-bar"
+  }
+}

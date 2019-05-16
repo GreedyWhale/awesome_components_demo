@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ac-slide-view": "@csr/awesome_components/components/slide-view/slide-view"
+  }
+}

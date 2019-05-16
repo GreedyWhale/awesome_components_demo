@@ -1,0 +1,29 @@
+<ac-nav-bar
+  title="Give Like" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+
+<view class="page-header">点赞 Give Like</view>
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <ac-give-like></ac-give-like>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">不同尺寸</view>
+  <view class="page-content-inner">
+    <ac-give-like custom-class-icon="samll-size"></ac-give-like>
+    <ac-give-like></ac-give-like>
+    <ac-give-like custom-class-icon="medium-size"></ac-give-like>
+    <ac-give-like custom-class-icon="big-size"></ac-give-like>
+    <ac-give-like custom-class-icon="bigger-size"></ac-give-like>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义提示文字</view>
+  <view class="page-content-inner">
+    <ac-give-like custom-class-icon="medium-size" tips="like + 1"></ac-give-like>
+  </view>
+</view>

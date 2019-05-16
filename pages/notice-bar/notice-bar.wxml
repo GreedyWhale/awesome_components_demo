@@ -1,0 +1,64 @@
+<ac-nav-bar
+  title="Notice Bar" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+
+<view class="page-header">通知栏 Notice Bar</view>
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <ac-notice-bar
+      custom-class-root="notice-bar"
+      wx:if="{{visible}}" bindonclose="onClose" data-key="visible"
+      text="我是输给了地球的重力"></ac-notice-bar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">自定义颜色</view>
+  <view class="page-content-inner">
+    <ac-notice-bar
+      custom-class-root="notice-bar"
+      wx:if="{{visible1}}" bindonclose="onClose" data-key="visible1"
+      text="我是输给了地球的重力" color="#363433" bg-color="#10aec2"></ac-notice-bar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">不滚动</view>
+  <view class="page-content-inner">
+    <ac-notice-bar
+    custom-class-root="notice-bar"
+      wx:if="{{visible2}}" bindonclose="onClose" data-key="visible2" autoplay="{{false}}"
+      text="为了保护心爱的学园都市，科学家们决定让七名LV5站出来……成为偶像！"></ac-notice-bar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">不展示关闭图标</view>
+  <view class="page-content-inner">
+    <ac-notice-bar
+      custom-class-root="notice-bar"
+      wx:if="{{visible3}}" bindonclose="onClose" data-key="visible3" close="{{false}}"
+      text="为了保护心爱的学园都市，科学家们决定让七名LV5站出来……成为偶像！"></ac-notice-bar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">不展示通知图标</view>
+  <view class="page-content-inner">
+    <ac-notice-bar
+      custom-class-root="notice-bar"
+      wx:if="{{visible4}}" bindonclose="onClose" data-key="visible4" visible-icon="{{false}}"
+      text="为了保护心爱的学园都市，科学家们决定让七名LV5站出来……成为偶像！"></ac-notice-bar>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">改变速度</view>
+  <view class="page-content-inner">
+    <ac-notice-bar
+      custom-class-root="notice-bar" speed="5"
+      wx:if="{{visible5}}" bindonclose="onClose" data-key="visible5"
+      text="为了保护心爱的学园都市，科学家们决定让七名LV5站出来……成为偶像！"></ac-notice-bar>
+  </view>
+</view>

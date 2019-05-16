@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ac-give-like": "@csr/awesome_components/components/give-like/give-like"
+  }
+}

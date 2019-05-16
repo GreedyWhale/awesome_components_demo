@@ -45,8 +45,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "loading",
-					"pathName": "pages/loading/loading",
+					"name": "n",
+					"pathName": "pages/steps/steps",
 					"query": "",
 					"scene": null
 				}

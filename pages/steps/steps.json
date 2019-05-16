@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ac-steps": "@csr/awesome_components/components/steps/steps"
+  }
+}

@@ -1,0 +1,21 @@
+<ac-nav-bar
+  bindonlayout="onLayout"
+  title="Sticky" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">吸顶 Sticky</view>
+
+<view class="page-content">
+  <view class="page-content-title">基础用法</view>
+  <view class="page-content-inner">
+    <view class="page-content-inner-item">试着向下滑动</view>
+    <view wx:for="{{20}}" wx:key="{{index}}">content</view>
+    <ac-sticky scroll-top="{{scrollTop}}" distance="{{distance}}">
+      <view class="sticky-elem">我是吸顶元素</view>
+    </ac-sticky>
+    <view wx:for="{{25}}" wx:key="{{index}}">content</view>
+    <ac-sticky scroll-top="{{scrollTop}}" distance="{{distance + 50}}">
+      <view class="sticky-elem-second">我也是是吸顶元素</view>
+    </ac-sticky>
+    <view wx:for="{{25}}" wx:key="{{index}}">content</view>
+  </view>
+</view>
