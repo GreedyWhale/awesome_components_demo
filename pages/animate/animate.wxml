@@ -1,0 +1,18 @@
+<ac-nav-bar
+  title="Animate" nav-bar-text-color="#161616" background-color="#f0d22e"
+  home-path="/pages/home/home"></ac-nav-bar>
+<view class="page-header">动画 Animate</view>
+
+<view class="page-content" wx:for="{{animates}}" wx:key="{{item.name}}">
+  <view class="page-content-title">{{item.name}}</view>
+  <view class="page-content-inner">
+    <view>
+      <view class="animate-text {{item.play ? 'ac-' + item.name : ''}}" data-index="{{index}}" bindanimationend="onAnimationEnd">
+        {{item.name}}
+      </view>
+    </view>
+    <button type="primary" size="mini" bindtap="onTap" data-index="{{index}}">执行动画</button>
+  </view>
+</view>
+
+

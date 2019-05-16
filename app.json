@@ -2,7 +2,21 @@
   "pages": [
     "pages/home/home",
     "pages/avatar/avatar",
-    "pages/loading/loading"
+    "pages/loading/loading",
+    "pages/tabs/tabs",
+    "pages/vertical-navigation/vertical-navigation",
+    "pages/watermark/watermark",
+    "pages/timeline/timeline",
+    "pages/progress/progress",
+    "pages/dialog/dialog",
+    "pages/nav-bar/nav-bar",
+    "pages/notice-bar/notice-bar",
+    "pages/number-selector/number-selector",
+    "pages/slide-view/slide-view",
+    "pages/steps/steps",
+    "pages/sticky/sticky",
+    "pages/give-like/give-like",
+    "pages/animate/animate"
   ],
   "window": {
     "backgroundColorTop": "#161616",
@@ -12,5 +26,24 @@
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
     "ac-nav-bar": "miniprogram_npm/@csr/awesome_components/components/nav-bar/nav-bar"
+  },
+  "tabBar": {
+    "backgroundColor": "#161616",
+    "color": "#776605",
+    "selectedColor": "#f0d22e",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "组件",
+        "iconPath": "./assets/image/tabIcon/home.png",
+        "selectedIconPath": "./assets/image/tabIcon/homeActive.png"
+      },
+      {
+        "pagePath": "pages/animate/animate",
+        "text": "动画",
+        "iconPath": "./assets/image/tabIcon/animate.png",
+        "selectedIconPath": "./assets/image/tabIcon/animateActive.png"
+      }
+    ]
   }
 }

@@ -1,0 +1,68 @@
+@import "../../assets/wxss/common.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounce.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceInDown.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceInLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceInRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceInUp.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceOutDown.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceOutLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceOutRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/bounceOutUp.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeInDown.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeInLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeInRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeInUp.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeOutDown.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeOutLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeOutRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/fadeOutUp.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/flip.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/flipInX.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/flipInY.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/flipOutX.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/flipOutY.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/heartBeat.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/lightSpeedIn.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/lightSpeedOut.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rollIn.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rollOut.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateIn.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateInDownLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateInDownRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateInUpLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateInUpRight.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateOut.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateOutDownLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateOutDownRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateOutUpLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rotateOutUpRight.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/rubberBand.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/swing.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomIn.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomInDown.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomInLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomInRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomInUp.wxss";
+
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomOut.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomOutDown.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomOutLeft.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomOutRight.wxss";
+@import "../../miniprogram_npm/@csr/awesome_components/wxss/animate/zoomOutUp.wxss";
+
+
+.animate-text {
+  display: inline-block;
+  font-size: 50rpx;
+  margin-bottom: 20rpx;
+}
