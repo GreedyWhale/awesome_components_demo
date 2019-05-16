@@ -16,6 +16,6 @@
     <ac-sticky scroll-top="{{scrollTop}}" distance="{{distance + 50}}">
       <view class="sticky-elem-second">我也是是吸顶元素</view>
     </ac-sticky>
-    <view wx:for="{{25}}" wx:key="{{index}}">content</view>
+    <view wx:for="{{50}}" wx:key="{{index}}">content</view>
   </view>
 </view>
