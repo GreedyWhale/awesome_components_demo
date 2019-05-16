@@ -1,0 +1,23 @@
+<ac-nav-bar title="About" nav-bar-text-color="#161616" background-color="#f0d22e"></ac-nav-bar>
+
+<view class="page-header">Awesome Components</view>
+<view class="page-content">
+  <view class="page-content-title">GitHub</view>
+  <view class="page-content-inner">
+    <button type="default" bindtap="ontap" data-url="https://github.com/GreedyWhale/awesome_components">复制</button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">文档</view>
+  <view class="page-content-inner">
+    <button type="default" bindtap="ontap">复制</button>
+  </view>
+</view>
+
+<view class="page-content">
+  <view class="page-content-title">小程序源码</view>
+  <view class="page-content-inner">
+    <button type="default" bindtap="ontap" data-url="https://github.com/GreedyWhale/awesome_components_demo">复制</button>
+  </view>
+</view>

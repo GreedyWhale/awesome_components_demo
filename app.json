@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/animate/animate",
+    "pages/about/about",
     "pages/avatar/avatar",
     "pages/loading/loading",
     "pages/tabs/tabs",
@@ -15,8 +17,7 @@
     "pages/slide-view/slide-view",
     "pages/steps/steps",
     "pages/sticky/sticky",
-    "pages/give-like/give-like",
-    "pages/animate/animate"
+    "pages/give-like/give-like"
   ],
   "window": {
     "backgroundColorTop": "#161616",
@@ -43,6 +44,12 @@
         "text": "动画",
         "iconPath": "./assets/image/tabIcon/animate.png",
         "selectedIconPath": "./assets/image/tabIcon/animateActive.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "./assets/image/tabIcon/about.png",
+        "selectedIconPath": "./assets/image/tabIcon/aboutActive.png"
       }
     ]
   }

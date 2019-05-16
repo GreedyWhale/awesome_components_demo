@@ -64,13 +64,13 @@ Page({
     ]
   },
   onTap({currentTarget: {dataset: {index}}}) {
-    const { animates } = this.data
-    animates[index].play = !animates[index].play
+    const key = `animates[${index}].play`
     this.setData({
-      animates
+      [key]: true
     })
   },
-  onAnimationEnd({currentTarget: {dataset: {key}}}) {
+  onAnimationEnd({currentTarget: {dataset: {index}}}) {
+    const key = `animates[${index}].play`
     this.setData({
       [key]: false
     })
