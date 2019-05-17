@@ -27,7 +27,7 @@
   <view class="page-content-title">不滚动</view>
   <view class="page-content-inner">
     <ac-notice-bar
-    custom-class-root="notice-bar"
+      custom-class-root="notice-bar"
       wx:if="{{visible2}}" bindonclose="onClose" data-key="visible2" autoplay="{{false}}"
       text="为了保护心爱的学园都市，科学家们决定让七名LV5站出来……成为偶像！"></ac-notice-bar>
   </view>

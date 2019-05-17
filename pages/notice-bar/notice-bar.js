@@ -1,6 +1,5 @@
 Page({
   data: {
-    tops: [],
     visible: true,
     visible1: true,
     visible2: true,
